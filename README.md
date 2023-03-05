@@ -1,15 +1,10 @@
-# Frontend Mentor - Stats preview card component solution
-
 # Stats Preview Card Component
-
-### Screenshot
 
 ![Mobile Design](mobile-finished.png)
 ![Desktop Design](desktop-finished.png)
 
 ## Table of contents
 
-- [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
@@ -17,8 +12,6 @@
   - [What I learned](#what-i-learned)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
-
-## Overview
 
 ## The challenge
 
@@ -45,7 +38,7 @@ For the responsiveness, I used a mix of Grid for the body and then Flexbox for e
 
 
 
-### What I learned
+## What I learned
 
 * Using `mix-blend-mode` property.
 * How to better implement different units, (px,rem,em).
