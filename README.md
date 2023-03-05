@@ -1,6 +1,12 @@
 # Frontend Mentor - Stats preview card component solution
 
 Stats Preview Card Component
+
+### Screenshot
+
+![Mobile Design](mobile-finished.png)
+![Desktop Design](desktop-finished.png)
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -19,11 +25,6 @@ Stats Preview Card Component
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
-
-### Screenshot
-
-![Mobile Design](mobile-finished.png)
-![Desktop Design](desktop-finished.png)
 
 ### Links
 
