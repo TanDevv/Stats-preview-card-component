@@ -13,7 +13,7 @@ Stats Preview Card Component
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
+  - [My process](#my-process)
   - [What I learned](#what-i-learned)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
@@ -31,7 +31,7 @@ Users should be able to:
 - [🔴 Live Review](https://app.netlify.com/sites/polite-mermaid-5975bb/overview)
 - [📝 Give feedback on my Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-stats-preview-card-component-using-css-gridflex-ju3ybw_jRP)
 
-## My process
+### My process
 I will start with the `style-guide.md` file. Then I will try to gauge what fonts were used in which areas awhile making my --custom properties.
 
 The hardest part for this challenge was the purple overlay. After some research and asking around in the [Slack](https://www.frontendmentor.io/slack) community, I decided to go with 'mix-blend-mode' on a pseudo element. It worked perfectly although I did have trouble with the background-color on my pseudo element constantly wanting to go past the image's width, I found putting a 'min-width: 100%' on the image stopped that from happening but I would like any suggestions on how I could have done it better as I feel it felt like a band-aid solution.
