@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - [🔴 Live Review](https://app.netlify.com/sites/polite-mermaid-5975bb/overview)
-- [📝 Give feedback on my Frontend Mentor Solution]()
+- [📝 Give feedback on my Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-stats-preview-card-component-using-css-gridflex-ju3ybw_jRP)
 
 ## My process
 I will start with the `style-guide.md` file. Then I will try to gauge what fonts were used in which areas awhile making my --custom properties.
