@@ -19,7 +19,7 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 
-### Links
+## Links
 
 - [🔴 Live Review](https://app.netlify.com/sites/polite-mermaid-5975bb/overview)
 - [📝 Give feedback on my Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-stats-preview-card-component-using-css-gridflex-ju3ybw_jRP)
