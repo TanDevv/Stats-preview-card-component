@@ -1,33 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+<head>
+
+  <meta charset="UTF-8">
+  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
+
+  <!-- Favicons -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Stats preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
-  Get insights that help your business grow.
+  <main>
+    <section class="container">
+      <div class="card__overlay" aria-hidden="true">
+        <picture>
+          <source media="(min-width: 80em)" srcset="./images/image-header-desktop.jpg" type="image/jpeg"/>
+          <img class="card__image" src="./images/image-header-mobile.jpg" alt="" />
+        </picture>
+      </div>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+      <div class="card__content">
+        <h1 class="card__title">Get <span class="title__span">insights</span> that help your business grow.</h1>
+        
+        <p class="card__paragraph">Discover the benefits of data analytics and make better decisions regarding revenue,
+          customer
+          experience, and overall efficiency.</p>
 
-  10k+ companies
-  314 templates
-  12m+ queries
+          <ul class="group__stats">
+            <li class="stats__item">
+              <span class="stats__number">10k+</span>
+              <span class="stats__description">comapnies</span>
+            </li>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+            <li class="stats__item">
+              <span class="stats__number">314</span>
+              <span class="stats__description">templates</span>
+            </li>
+
+            <li class="stats__item">
+              <span class="stats__number">12M+</span>
+              <span class="stats__description">queries</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/home">YorkieLT</a>.
+    </div>
+  </footer>
+
 </body>
+
 </html>
